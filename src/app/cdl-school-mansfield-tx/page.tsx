@@ -155,8 +155,8 @@ export default function LocalLandingPage() {
                 <h3 className="text-xl font-bold text-ace-black mb-2">
                   {program.name}
                 </h3>
-                <div className="text-3xl font-black text-ace-red mb-2">
-                  ${program.price.toLocaleString()}
+                <div className="text-sm font-bold text-ace-red uppercase tracking-wider mb-2">
+                  Call for Pricing
                 </div>
                 <div className="flex items-center gap-2 text-sm text-ace-gray-dark mb-4">
                   <Clock className="size-4" /> {program.duration}

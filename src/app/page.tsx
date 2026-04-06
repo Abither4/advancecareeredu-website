@@ -327,9 +327,9 @@ export default function HomePage() {
                   <h3 className="text-lg font-bold text-ace-black">
                     {program.name}
                   </h3>
-                  <div className="flex items-baseline gap-1 mt-3">
-                    <span className="text-4xl font-black text-ace-red">
-                      ${program.price.toLocaleString()}
+                  <div className="mt-2">
+                    <span className="text-sm font-semibold text-ace-red uppercase tracking-wider">
+                      Call for Pricing
                     </span>
                   </div>
                   <div className="flex items-center gap-4 mt-2 text-sm text-ace-gray-dark">
@@ -529,7 +529,7 @@ export default function HomePage() {
               },
               {
                 q: "How much does CDL training cost?",
-                a: "CDL Class A Day Program is $5,095, CDL Class A Evening Program is $5,495, and CDL Class B Program is $3,195. We offer financing through Meritize and accept TWC grants for eligible students.",
+                a: "We offer competitive pricing on all CDL programs with financing available through Meritize. We also accept TWC grants for eligible students. Call us at 817-864-8086 for current pricing and details.",
               },
               {
                 q: "What makes ACE different from other CDL schools?",

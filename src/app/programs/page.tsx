@@ -12,7 +12,7 @@ import { SITE, PROGRAMS, ADDITIONAL_SERVICES } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "CDL Training Programs & Pricing",
   description:
-    "View all CDL training programs at ACE Mansfield, TX. Class A ($5,095), Class B ($3,195), evening programs, endorsements, and refresher courses. Financing available.",
+    "View all CDL training programs at ACE Mansfield, TX. Class A, Class B, evening programs, endorsements, and refresher courses. Financing available. Call for pricing.",
   alternates: {
     canonical: "https://advancecareeredu.com/programs",
   },
@@ -58,8 +58,8 @@ export default function ProgramsPage() {
                 <h3 className="text-xl font-bold text-ace-black mb-2">
                   {program.name}
                 </h3>
-                <div className="text-4xl font-black text-ace-red mb-1">
-                  ${program.price.toLocaleString()}
+                <div className="text-sm font-bold text-ace-red uppercase tracking-wider mb-1">
+                  Call for Pricing
                 </div>
                 <div className="flex items-center gap-4 text-sm text-ace-gray-dark mb-4">
                   <span className="flex items-center gap-1">
@@ -121,7 +121,7 @@ export default function ProgramsPage() {
                   {service.name}
                 </span>
                 <span className="text-sm text-ace-red font-semibold">
-                  {service.price}
+                  Call for Details
                 </span>
               </div>
             ))}

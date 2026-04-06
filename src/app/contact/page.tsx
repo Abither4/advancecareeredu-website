@@ -161,13 +161,13 @@ export default function ContactPage() {
                       >
                         <option value="">Select a program...</option>
                         <option value="class-a-day">
-                          CDL Class A - 3 Week Day Program ($5,095)
+                          CDL Class A - 3 Week Day Program
                         </option>
                         <option value="class-a-evening">
-                          CDL Class A - 3 Week Evening Program ($5,495)
+                          CDL Class A - 3 Week Evening Program
                         </option>
                         <option value="class-b">
-                          CDL Class B - 2 Week Program ($3,195)
+                          CDL Class B - 2 Week Program
                         </option>
                         <option value="endorsement">
                           Endorsement / Additional Service

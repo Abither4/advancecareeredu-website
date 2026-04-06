@@ -16,7 +16,7 @@ interface LandingPageProps {
   heroHighlight: string;
   heroSubtitle: string;
   programName: string;
-  price: number;
+
   duration: string;
   schedule: string;
   features: readonly string[];
@@ -28,7 +28,7 @@ export function LandingPage({
   heroHighlight,
   heroSubtitle,
   programName,
-  price,
+
   duration,
   schedule,
   features,
@@ -94,9 +94,9 @@ export function LandingPage({
                 <h2 className="text-2xl font-bold text-ace-black mb-1">
                   {programName}
                 </h2>
-                <div className="flex items-baseline justify-center gap-1">
-                  <span className="text-5xl font-black text-ace-red">
-                    ${price.toLocaleString()}
+                <div className="mt-1">
+                  <span className="text-ace-red font-bold uppercase tracking-wider">
+                    Call for Pricing: {SITE.phone}
                   </span>
                 </div>
                 <div className="flex items-center justify-center gap-4 mt-3 text-sm text-ace-gray-dark">
@@ -195,7 +195,7 @@ export function LandingPage({
               },
               {
                 title: "Job Placement Support",
-                desc: "Get connected with top carriers offering $55K-$75K starting pay and sign-on bonuses.",
+                desc: "Get connected with top carriers offering competitive starting pay and sign-on bonuses.",
               },
             ].map((item) => (
               <div
@@ -270,7 +270,7 @@ export function LandingPage({
           </h2>
           <p className="text-white/70 text-lg mb-8">
             Every week you wait is another week of lost earning potential. New
-            CDL drivers earn $55,000-$75,000/year.
+            New CDL drivers start earning right away.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a

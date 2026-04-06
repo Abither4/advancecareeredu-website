@@ -13,7 +13,7 @@ import { SITE, PROGRAMS } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "CDL Training Financing | Affordable Payment Plans",
   description:
-    "Can't pay upfront? ACE offers CDL training financing through Meritize. Flexible payment plans for Class A ($5,095) and Class B ($3,195) programs. Apply today.",
+    "Can't pay upfront? ACE offers CDL training financing through Meritize. Flexible payment plans for all CDL programs. Apply today.",
   alternates: {
     canonical: "https://advancecareeredu.com/financing",
   },
@@ -29,7 +29,7 @@ export default function FinancingPage() {
             <span className="text-ace-red">Financing</span>
           </h1>
           <p className="text-white/70 text-lg max-w-2xl mx-auto">
-            Don&apos;t let cost hold you back from a career earning $55K-$75K/year.
+            Don&apos;t let cost hold you back from launching a new career.
             We offer flexible financing through Meritize.
           </p>
         </div>
@@ -45,8 +45,8 @@ export default function FinancingPage() {
               </h2>
               <p className="text-ace-gray-dark mb-6 leading-relaxed">
                 A CDL is one of the best investments you can make. With average
-                starting salaries of $55,000-$75,000 and sign-on bonuses up to
-                $15,000, most graduates recoup their training costs within the
+                competitive starting salaries and sign-on bonuses,
+                most graduates recoup their training costs within the
                 first few months.
               </p>
 
@@ -71,20 +71,10 @@ export default function FinancingPage() {
                   <DollarSign className="size-5 text-ace-red" />
                   Return on Investment
                 </h3>
-                <div className="grid grid-cols-2 gap-4 text-sm">
-                  <div>
-                    <div className="text-ace-gray-dark">Training Cost</div>
-                    <div className="font-bold text-ace-black text-lg">
-                      $3,195 - $5,495
-                    </div>
-                  </div>
-                  <div>
-                    <div className="text-ace-gray-dark">Average First-Year Salary</div>
-                    <div className="font-bold text-ace-red text-lg">
-                      $55,000 - $75,000
-                    </div>
-                  </div>
-                </div>
+                <p className="text-sm text-ace-gray-dark">
+                  Call us at <a href="tel:+18178648086" className="text-ace-red font-bold">817-864-8086</a> for
+                  current pricing and to discuss financing options.
+                </p>
               </div>
             </div>
 
@@ -100,8 +90,8 @@ export default function FinancingPage() {
                 >
                   <div className="flex items-center justify-between mb-2">
                     <h4 className="font-bold text-ace-black">{program.name}</h4>
-                    <span className="text-2xl font-black text-ace-red">
-                      ${program.price.toLocaleString()}
+                    <span className="text-sm font-bold text-ace-red uppercase">
+                      Call for Pricing
                     </span>
                   </div>
                   <div className="flex items-center gap-4 text-sm text-ace-gray-dark mb-4">

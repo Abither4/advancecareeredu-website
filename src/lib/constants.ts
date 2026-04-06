@@ -32,7 +32,6 @@ export const PROGRAMS = [
     slug: "cdl-class-a-training",
     name: "CDL Class A - 3 Week Day Program",
     shortName: "Class A Day",
-    price: 5095,
     duration: "3 Weeks",
     schedule: "Monday - Friday, 8 AM - 5 PM",
     description:
@@ -51,7 +50,6 @@ export const PROGRAMS = [
     slug: "cdl-class-a-evening",
     name: "CDL Class A - 3 Week Evening Program",
     shortName: "Class A Evening",
-    price: 5495,
     duration: "3 Weeks",
     schedule: "Monday - Friday, 5 PM - 10 PM",
     description:
@@ -70,7 +68,6 @@ export const PROGRAMS = [
     slug: "cdl-class-b-training",
     name: "CDL Class B - 2 Week Program",
     shortName: "Class B",
-    price: 3195,
     duration: "2 Weeks",
     schedule: "Monday - Friday, 8 AM - 5 PM",
     description:
@@ -88,12 +85,12 @@ export const PROGRAMS = [
 ] as const;
 
 export const ADDITIONAL_SERVICES = [
-  { name: "ELDT Theory Portal (Online)", price: "Contact for pricing" },
-  { name: "ELDT Hazmat Portal (Online)", price: "Contact for pricing" },
-  { name: "Tanker Endorsement", price: "Contact for pricing" },
-  { name: "Doubles & Triples Endorsement", price: "Contact for pricing" },
-  { name: "Restriction Removal (L or E)", price: "Contact for pricing" },
-  { name: "40-Hour CDL Refresher Program", price: "Contact for pricing" },
+  { name: "ELDT Theory Portal (Online)" },
+  { name: "ELDT Hazmat Portal (Online)" },
+  { name: "Tanker Endorsement" },
+  { name: "Doubles & Triples Endorsement" },
+  { name: "Restriction Removal (L or E)" },
+  { name: "40-Hour CDL Refresher Program" },
 ] as const;
 
 export const STATS = [

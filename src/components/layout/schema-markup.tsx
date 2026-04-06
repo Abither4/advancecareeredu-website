@@ -39,7 +39,7 @@ export function SchemaMarkup() {
       reviewCount: "856",
       bestRating: "5",
     },
-    priceRange: "$3,195 - $5,495",
+    priceRange: "Call for pricing",
     areaServed: [
       { "@type": "City", name: "Mansfield, TX" },
       { "@type": "City", name: "Arlington, TX" },
@@ -65,8 +65,6 @@ export function SchemaMarkup() {
       provider: { "@id": `${SITE.url}/#organization` },
       offers: {
         "@type": "Offer",
-        price: "5095",
-        priceCurrency: "USD",
         availability: "https://schema.org/InStock",
         category: "CDL Training",
       },
@@ -91,8 +89,6 @@ export function SchemaMarkup() {
       provider: { "@id": `${SITE.url}/#organization` },
       offers: {
         "@type": "Offer",
-        price: "3195",
-        priceCurrency: "USD",
         availability: "https://schema.org/InStock",
         category: "CDL Training",
       },
@@ -122,7 +118,7 @@ export function SchemaMarkup() {
         name: "How much does CDL training cost?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "CDL Class A Day Program is $5,095, CDL Class A Evening Program is $5,495, and CDL Class B Program is $3,195. Financing is available through Meritize.",
+          text: "We offer competitive pricing on all CDL programs with financing available through Meritize and TWC grants for eligible students. Call 817-864-8086 for current pricing.",
         },
       },
       {

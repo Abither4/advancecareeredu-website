@@ -46,8 +46,8 @@ export default function CatalogPage() {
                       {program.duration} | {program.schedule}
                     </div>
                   </div>
-                  <div className="text-3xl font-black text-ace-red">
-                    ${program.price.toLocaleString()}
+                  <div className="text-sm font-bold text-ace-red uppercase tracking-wider">
+                    Call for Pricing
                   </div>
                 </div>
                 <p className="text-ace-gray-dark text-sm mb-4 leading-relaxed">
